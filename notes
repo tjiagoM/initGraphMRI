@@ -1,0 +1,25 @@
+
+# Read part1 and part2 of Docker doc:
+https://docs.docker.com/get-started/
+https://docs.docker.com/get-started/part2/
+
+#TIP: some reference here: https://docs.docker.com/engine/reference/builder/
+
+
+#para aceder online
+docker login      
+
+#To get neurodocker locally
+docker run --rm kaczmarj/neurodocker:master
+
+#run our code (neurodocker will create a local 
+ bash generate_docker.sh 
+
+
+> jupyter notebook --ip 0.0.0.0 
+
+
+> copiar o link com o token. explicar que funciona pois fizemos forward da porta 8888 tanto no host como no proprio computador.
+
+CTRL+C para terminar, exit para terminar o container
+
